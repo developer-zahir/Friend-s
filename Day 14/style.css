@@ -1,116 +1,60 @@
-* {
-  padding: 0;
+*{
   margin: 0;
-  text-decoration: none;
-  list-style: none;
-  font-family: sans-serif;
-
 }
-body main {
+.main_website{
   width: 70%;
   margin: 0 auto;
-  background-color: #ddd;
+  border: 1px solid #000;
 }
-.header_section {
-  background-color: #333;
-}
-.header_section ul {
+.header{
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-family: sans-serif;
+  background: #00a2e7;
+padding: 10px 0;
+color: #fff;
 }
-
-.header_section ul li {
-  display: inline-block;
-  border-left: 1px solid rgba(236, 225, 225, 0.308);
+.header_banner{
+  background: url(https://zahirulislam-iv.github.io/class-17-assignment-/img/photo-1490578474895-699cd4e2cf59.jpg);
+  text-align: center;
+  padding: 200px 0;
+  background-repeat:no-repeat;
+  background-size: 100vw;
+  background-position: 10px 40px;
 }
-.header_section ul li:last-child {
-  border-right: 1px solid rgba(236, 225, 225, 0.308);
-}
-.header_section ul li a {
-  display: block;
+.header_banner h1{
+  background-color: rgb(165, 19, 19);
   color: #fff;
-  text-transform: capitalize;
-  padding: 16px 30px;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  width: 30%;
+  margin: 0 auto;
 }
-.header_section ul li a:hover {
-  background-color: red;
-  transition: 0.4s;
+.header_banner h6{
+  color: red;
+  background: #fff;
+  width: 25%;
+  margin: 10px auto;
+  font-size: 19px;
 }
-/* banner section */
-.header_banner_section{
-    text-align: center;
- padding: 200px 0;
- background: url(./2.jpg) rgba(0, 0, 0, 0.376);
- background-position: center center;
- background-size: cover;
- background-blend-mode: multiply;
- 
+.header_banner a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 19px;
+  text-transform: uppercase;
+  border: 1px solid #ddd;
+  padding: 10px;
+  display: inline-block;
+  transition: .4s;
 }
-.header_banner_section h1{
-    background-color: #fff;
-    width: 40%;
-    display:block;  
-    text-transform: uppercase;
-    padding: 10px; 
-    margin: 20px auto;  
+.header_banner a:hover{
+  color: red;
+  border-color: red;
+  padding:10px 120px ;
 }
-.header_banner_section h6{
-    background-color: #fff;
-    width: 40%;
-    display:block;  
-    text-transform: uppercase;
-    padding: 10px; 
-    margin: 12px auto; 
-    font-size: 16px;
-    font-weight: 500;
-}
-.header_banner_section a{
-    display: inline-block;
-    background-color: hotpink;
-    color: #fff;
-    padding: 15px 40px;
-    margin: 9px;
-    border-radius: 3px;
-    transition: .4s;
-    text-transform: capitalize;
-    border: 2px solid transparent;
-
-}
-.header_banner_section a:hover{
-    background-color: rgb(255, 255, 255);
-    color: hotpink;
-    border-color:violet;
-}
-.footer_section{
-    text-align: center;
-    background-color: rgb(17, 17, 17);
-    color: #fff;
-    padding: 30px 0 ;
-} 
-.footer_section p a{
-    color: #fff;
-    transition: .4s;
-}
-.footer_section p a:hover{
-    color: rgb(177, 17, 17);
-}
-.social_menu{
-    margin-top: 10px;
-}
-.social_menu li{
-    display: inline-block;
-}
-.social_menu li a{
-    background-color: #fff;
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    border-radius: 50%;
-    font-size: 19px;
-    color: rgb(30, 117, 230);
-    transition: .4s;
-}
-.social_menu li:hover a{
-    background-color: rgb(30, 117, 230);
-    color: #fff;
+.footer{
+  text-align: center;
+  background: #555;
+  padding: 20px 0;
 }
